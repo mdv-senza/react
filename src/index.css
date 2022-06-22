@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(white 300px,rgb(78, 73, 73)500px,grey 600px);
+    font-weight: bolder;
+    height: 150vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-item1s: center; */
+}

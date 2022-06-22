@@ -1,0 +1,10 @@
+.expenses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(73, 72, 72, 0.219);
+    color: white; 
+    border-radius: 15px;
+    padding: 10px 15px;
+}

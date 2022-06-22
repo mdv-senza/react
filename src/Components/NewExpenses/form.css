@@ -1,0 +1,11 @@
+.formcontainer{
+    display: flex;
+}
+
+.formtitle{
+    padding-right: 25px;
+
+}
+.formamount{
+    padding-right: 25px;
+}

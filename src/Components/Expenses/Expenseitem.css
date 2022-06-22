@@ -1,0 +1,65 @@
+.expense-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 60vw;
+    /* border: 2px solid black; */
+    border-radius: 25px ;
+    box-shadow: 5px 5px 10px black;
+    background-color: grey;
+    margin: 15px 0;
+    position: relative;
+    
+
+}
+.expense-item div{
+    margin-left: 50px;
+}
+.expense-item_descryption{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.expense-item_descryption  h2{
+    color: white;
+}
+.expense-item_price{
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+}
+
+button{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    width: 150px;
+    font-weight: bold;
+    padding: 10px 0;
+    margin-right: 50px;
+    border: 2px solid black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.732);
+    cursor: pointer;
+}
+input{
+    width: 100px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 0;
+    text-align: center;
+}
